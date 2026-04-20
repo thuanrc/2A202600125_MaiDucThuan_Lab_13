@@ -1,9 +1,42 @@
-.venv/
-__pycache__/
+```python
+# Compiled Python files
 *.pyc
-.DS_Store
-data/logs.jsonl
-data/audit.jsonl
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
 .env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+target/
+.gradle/
+
+# Testing
 .pytest_cache/
-.antigravity/
+.mypy_cache/
+```
